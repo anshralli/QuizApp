@@ -2,7 +2,7 @@
 
 ## Setup Instructions
 1. Clone the repository  
-   git clone https://github.com/anshralli/QuizApp/edit/main/README.md
+   git clone https://github.com/anshralli/QuizApp
 
 2. Navigate to the project directory  
    cd frontend-assignment  
