@@ -1,85 +1,44 @@
-# Quiz App
+# Frontend Developer Intern Assignment
 
-A simple and interactive quiz application built with React and TypeScript. Test your knowledge with multiple-choice questions and see your final score!
+## Setup Instructions
+1. Clone the repository  
+   git clone https://github.com/anshralli/QuizApp/edit/main/README.md
 
-## Features
+2. Navigate to the project directory  
+   cd frontend-assignment  
 
-- Multiple-choice questions
-- Progress tracking with visual progress bar
-- Score calculation and results display
-- Responsive design for mobile and desktop
-- Smooth animations and transitions
+3. Install dependencies  
+   npm install  
 
-## Technologies Used
+4. Start the development server  
+   npm run dev  
 
-- **Vite** - Build tool and development server
-- **TypeScript** - Type-safe JavaScript
-- **React** - UI library
-- **shadcn/ui** - UI components
-- **Tailwind CSS** - Utility-first CSS framework
-- **Lucide React** - Icon library
+5. Open the application in your browser  
+   http://localhost:5173  
 
-## Getting Started
+## Tech Stack Used
+- React (TypeScript)
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- Modern ES6+ JavaScript
 
-### Prerequisites
+## Key Features Implemented
+- Pixel-perfect UI implementation based on the provided Figma design  
+- Reusable and modular component-based architecture  
+- Desktop-first layout as per assignment requirement  
+- Clean layout using Flexbox and Grid  
+- Smooth hover states and UI transitions  
+- Accessible and semantic HTML structure  
 
-- Node.js (version 16 or higher)
-- npm or yarn
+## Assumptions Made
+- The application is intended for desktop screens only  
+- No backend or API integration was required for this assignment  
+- All spacing, typography, and color values were matched directly from the Figma design  
 
-### Installation
+## Time Spent on the Assignment
+- Figma analysis and layout planning: 1 hour  
+- UI development and styling: 4 hours  
+- Final refinements and testing: 1 hour  
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Shaurya068/FrontendAssignment.git
-   ```
-
-2. Navigate to the project directory:
-   ```sh
-   cd FrontendAssignment
-   ```
-
-3. Install dependencies:
-   ```sh
-   npm install
-   ```
-
-4. Start the development server:
-   ```sh
-   npm run dev
-   ```
-
-5. Open your browser and visit `http://localhost:5173` to view the app.
-
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── Quiz.tsx          # Main quiz component
-│   └── ui/               # Reusable UI components
-├── pages/
-│   ├── Index.tsx         # Home page
-│   └── NotFound.tsx      # 404 page
-├── assets/               # Static assets
-└── lib/                  # Utility functions
-```
-
-## Deployment
-
-This project can be deployed to any static hosting service like Vercel, Netlify, or GitHub Pages.
-
-For Vercel:
-1. Connect your GitHub repository to Vercel
-2. Deploy automatically on push
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+Total Time Spent: ~6 hours
